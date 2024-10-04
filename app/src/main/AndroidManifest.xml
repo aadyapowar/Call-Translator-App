@@ -13,6 +13,17 @@
         android:theme="@style/Theme.CallTranslatorApp"
         tools:targetApi="31">
         <activity
+            android:name=".Enter_mobile_Number"
+            android:exported="false" />
+        <activity
+            android:name=".Experiment_ScrollingActivity"
+            android:exported="false"
+            android:label="@string/title_activity_experiment_scrolling"
+            android:theme="@style/Theme.CallTranslatorApp.NoActionBar" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
             android:name=".Home_Screen"
             android:exported="false"
             android:label="@string/title_activity_home_screen" />

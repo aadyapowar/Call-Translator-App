@@ -9,6 +9,11 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven {
+            url = uri("https://jitpack.io")
+        }
+        google()
+        mavenCentral()
     }
 }
 dependencyResolutionManagement {
@@ -18,6 +23,9 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
+
+
+
 
 rootProject.name = "Call Translator App"
 include(":app")
