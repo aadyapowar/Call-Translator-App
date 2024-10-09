@@ -7,8 +7,7 @@
     android:layout_height="match_parent"
     android:layout_margin="20dp"
     android:orientation="vertical"
-    android:gravity="center"
-    tools:context=".Enter_mobile_Number">
+    android:gravity="center">
 
    <ImageView
        android:layout_width="150dp"
@@ -44,6 +43,7 @@
           app:ccp_showPhoneCode="true" />
 
       <EditText
+          android:id="@+id/editTextPhone"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
           android:layout_margin="10dp"
@@ -64,11 +64,13 @@
        android:orientation="vertical">
       
       <Button
+          android:id="@+id/sendotpbutton"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
          android:text="Send OTP"/>
 
       <ProgressBar
+          android:id="@+id/progressBar"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
          android:layout_marginTop="10dp"

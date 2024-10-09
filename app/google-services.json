@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "517957703334",
+    "project_id": "call-translator-app-77235",
+    "storage_bucket": "call-translator-app-77235.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:517957703334:android:048bb7d7a27e5e15cfc667",
+        "android_client_info": {
+          "package_name": "com.techad.calltranslatorapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDA2a79ybJ83IZy0ZApoLF-QFMGGBKQJ9o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

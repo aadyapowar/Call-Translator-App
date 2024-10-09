@@ -13,6 +13,9 @@
         android:theme="@style/Theme.CallTranslatorApp"
         tools:targetApi="31">
         <activity
+            android:name=".OTP_Verification"
+            android:exported="false" />
+        <activity
             android:name=".FragmentMainActivity"
             android:exported="false" />
         <activity
