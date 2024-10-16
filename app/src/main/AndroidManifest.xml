@@ -2,6 +2,17 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <!-- Permissions -->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS"/>
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,51 +24,22 @@
         android:theme="@style/Theme.CallTranslatorApp"
         tools:targetApi="31">
         <activity
-            android:name=".verify_otp"
+            android:name=".Contacts_page"
             android:exported="false" />
         <activity
-            android:name=".Otp_Verification"
+            android:name=".Calls_Page"
             android:exported="false" />
+        <activity
+            android:name=".Recent_Calls"
+            android:exported="false" />
+        <activity
+            android:name=".verify_otp"
+            android:exported="false" />
+
         <activity
             android:name=".Login_With_Mobile"
             android:exported="false" />
-        <activity
-            android:name=".Mobile_Verification"
-            android:exported="false" />
-        <activity
-            android:name=".MainActivity4"
-            android:exported="false" />
-        <activity
-            android:name=".OTP_Verification"
-            android:exported="false" />
-        <activity
-            android:name=".FragmentMainActivity"
-            android:exported="false" />
-        <activity
-            android:name=".Enter_mobile_Number"
-            android:exported="false" />
-        <activity
-            android:name=".Experiment_ScrollingActivity"
-            android:exported="false"
-            android:label="@string/title_activity_experiment_scrolling"
-            android:theme="@style/Theme.CallTranslatorApp.NoActionBar" />
-        <activity
-            android:name=".Settings"
-            android:exported="false" />
-        <activity
-            android:name=".Home_Screen"
-            android:exported="false"
-            android:label="@string/title_activity_home_screen" />
-        <activity
-            android:name=".Main_BottomView"
-            android:exported="false"
-            android:label="@string/title_activity_main_bottom_view" />
-        <activity
-            android:name=".Mobile_Number_Verification"
-            android:exported="false" />
-        <activity
-            android:name=".EnterMobileNumber"
-            android:exported="false" />
+
         <activity
             android:name=".LoginPage"
             android:exported="false" />
@@ -67,18 +49,25 @@
         <activity
             android:name=".MainActivity2"
             android:exported="false" />
-        <activity
-            android:name=".first_page"
-            android:exported="false" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
+
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+
+
     </application>
+
+
 
 </manifest>
