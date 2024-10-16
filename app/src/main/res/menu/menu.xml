@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Calls"
+        android:id="@+id/callsFragment"
+        android:icon="@drawable/baseline_call_24"/>
+    <item android:title="Messages"
+        android:id="@+id/messagesFragment"
+        android:icon="@drawable/baseline_message_24" />
+    <item android:title="Contacts"
+        android:id="@+id/contactsFragment"
+        android:icon="@drawable/baseline_contacts_24"/>
+    <item android:title="Settings"
+        android:id="@+id/settingsFragment"
+        android:icon="@drawable/settings"/>
+</menu>

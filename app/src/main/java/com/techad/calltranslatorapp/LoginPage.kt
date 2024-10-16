@@ -1,6 +1,6 @@
 package com.techad.calltranslatorapp
 
-import EnterMobileNumberActivity
+
 import android.content.Intent
 import android.os.Bundle
 import android.view.View
@@ -17,7 +17,7 @@ class LoginPage : AppCompatActivity() {
 
         val signin_with_phone_number = findViewById<View>(R.id.signin_with_phone_number)
 
-        signin_with_phone_number.setOnClickListener { val intent = Intent(this, EnterMobileNumberActivity::class.java)
+        signin_with_phone_number.setOnClickListener { val intent = Intent(this, Login_With_Mobile::class.java)
             startActivity(intent) }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
